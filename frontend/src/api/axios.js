@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'http://localhost:5000/api', // Pointing to your backend
+    baseURL: 'https://socialnexus.onrender.com/api', // Pointing to your backend
 });
 
 // Automatically add the Token to every request if it exists
